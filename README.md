@@ -14,16 +14,21 @@ Different images require setting up different parameters in the main file. Those
 - mutate: Percentage of change in mutation. 
 
 For our input image, the GA solved the image in 30 generations. we selected the target value as 1.0, population count as 1000, generation cycle as 50, retain as 0.2, random select as 0.05, and mutation as 0.01 to get the desired results. The image below shows the shape of the image during generation 0 and after generation 30. 
-![From gen 0 to gen 30](https://user-images.githubusercontent.com/87089227/216111035-cf4896ee-c7f4-45b7-817e-7399993ac9dd.jpg)
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/87089227/216111035-cf4896ee-c7f4-45b7-817e-7399993ac9dd.jpg?raw=true" alt="From gen 0 to gen 30"/>
+</p>
 
 We recorded every generation's fitness score. Our fitness score started from 2.450096484 and reached 0.75 fitness score where it completely solved the image. 
-
-![Score plot](https://user-images.githubusercontent.com/87089227/216119977-6232cee6-d6e4-45ca-90ed-c98e4cf0ae66.png)
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/87089227/216119977-6232cee6-d6e4-45ca-90ed-c98e4cf0ae66.png?raw=true" alt="Score Plot"/>
+</p>
 
 #Image Classification Comparision
 In this project, we also used two image classification models (AlexNet and VGG16) for detecting the objects on the image. This will help in applications like mosaic art reconstruction. We can use image classification models for detecting the objects in the images before reconstructing them. So we applied AlexNet and VGG16 on every image, starting from the shuffled image to the last generation image. These are the scores we get. Both models perform very well in detecting the object in the image but you can see the accuracy of VGG16 is better than Alex Net.
-![MicrosoftTeams-image](https://user-images.githubusercontent.com/87089227/216121054-51859b7d-aedb-4ecd-bdb9-919a0d258c5b.png)
 
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/87089227/216125317-feab3779-b38e-42c9-a849-56b3d162b44d.png?raw=true" alt="Image Model Comparison"/>
+</p>
 
 # Running of this Project
 We did this whole project on Jupyter Notebook. If you want to run this project we recommend running it on Jupyter Notebook. For that you need to install:
