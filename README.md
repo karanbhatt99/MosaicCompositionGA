@@ -6,6 +6,7 @@ The interesting nature of solving a jigsaw puzzle captures the attention of rese
 
 A GA is a sort of optimization algorithm inspired by the natural selection process. Each piece of the puzzle can be represented as a gene and each configuration of the puzzle as a chromosome. The GA method generally begins with a population of randomly created chromosomes and then performs genetic operators such as selection, crossover, and mutation to generate new generations of chromosomes repeatedly. The aim is to identify the best chromosome that symbolizes the proper puzzle layout. GA gradually explores the solution space and converges toward the optimal solution. We also use two image classification models Visual Geometry Group (VGG16) and Alex Net for identifying the objects in the image. We compared the scores of both models during every generation result.
 
+We took a random image from the internet and split it into 25 tiles. Then we applied random shuffle on the tiles and use the shuffle image as our input image. 
 Different images require setting up different parameters in the main file. Those parameters are:
 - P_count: Number of Population.
 - range: Number of Generations.
