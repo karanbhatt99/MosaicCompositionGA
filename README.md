@@ -1,5 +1,5 @@
 # Solving a Mosaic Art using Genetic Algorithm Approach
-A Genetic Algorithm Approach to solve a shuffled image like a Mosaic Art.
+A Genetic Algorithm Approach to solve a shuffled image like a Mosaic Art using python.
 
 # Importance and working of the Project
 The interesting nature of solving a jigsaw puzzle captures the attention of research workers for the past few years. They use the same technique for the reconstruction of different images. A process of creating an original image from a broken image. This technique has scope in satellite imaging, medical imaging, computer vision, augmented reality, image-based search engines, etc. In this project, we try out a new technique, which works the same as the process of solving a jigsaw puzzle. We use an approach known as the Genetic algorithm (GA), we are checking every tile edge and orientation distance for solving the image using the cosine function because it performs very well for high dimensional data.
